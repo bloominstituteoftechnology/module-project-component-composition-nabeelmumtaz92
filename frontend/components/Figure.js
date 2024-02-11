@@ -1,4 +1,13 @@
 import React from 'react'
+import styled from 'styled-components'
+
+
+const StyledFigure = styled.figue `
+  max-width: 60%
+  figcaption {
+    fonst-style:italic
+  }
+`
 
 export default function Figure ({imageURL, caption}) {
     return (
